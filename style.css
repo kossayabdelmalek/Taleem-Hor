@@ -1,16 +1,19 @@
+/* إزالة الهوامش والحشوات من كل العناصر */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* تنسيق الجسم (body) */
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
+    line-height: 1.6;
 }
 
+/* تنسيق رأس الصفحة (header) */
 header {
     background-color: #4CAF50;
     color: white;
@@ -22,9 +25,11 @@ header h1 {
     margin-bottom: 10px;
 }
 
+/* تنسيق شريط التنقل (nav) */
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -38,6 +43,11 @@ nav ul li a {
     font-weight: bold;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* تنسيق القسم (section) */
 section {
     padding: 20px;
     margin: 20px;
@@ -47,6 +57,7 @@ section h2 {
     color: #4CAF50;
 }
 
+/* تنسيق الكورس (الدورة التدريبية) */
 .course {
     background-color: #fff;
     padding: 15px;
@@ -55,6 +66,7 @@ section h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* تنسيق الفوتر (footer) */
 footer {
     text-align: center;
     padding: 10px;
@@ -62,40 +74,3 @@ footer {
     color: white;
     margin-top: 20px;
 }
-/* style.css */
-
-/* تنسيق الجسم (body) */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
-
-/* تنسيق رأس الصفحة (header) */
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-/* تنسيق الروابط في الشريط العلوي */
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* تنسيق الفقرات */
-p {
-    line-height: 1.6;
-    margin: 20px;
-}
-
-
