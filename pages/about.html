@@ -6,88 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>عن الموقع</title>
     
-    <!-- دمج CSS مباشرة داخل الصفحة -->
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        header {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-        }
-
-        header h1 {
-            margin-bottom: 10px;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-        }
-
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav ul li a:hover {
-            text-decoration: underline;
-        }
-
-        section {
-            padding: 20px;
-            margin: 20px;
-        }
-
-        section h2 {
-            color: #4CAF50;
-        }
-
-        .course {
-            background-color: #fff;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
-        }
-    </style>
-
+    <!-- ربط CSS الخارجي -->
+    <link rel="stylesheet" href="style.css"> <!-- تأكد من المسار بناءً على مكان حفظ الملفات -->
 </head>
 <body>
     <header>
         <h1>مرحبًا بك في موقعنا!</h1>
         <nav>
             <ul>
-                <li><a href="index.html">الرئيسية</a></li>
-                <li><a href="about.html">عن الموقع</a></li>
-                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="../index.html">الرئيسية</a></li> <!-- رابط للصفحة الرئيسية -->
+                <li><a href="about.html">عن الموقع</a></li> <!-- رابط لصفحة "عن الموقع" -->
+                <li><a href="../contact.html">اتصل بنا</a></li> <!-- رابط لصفحة "اتصل بنا" -->
             </ul>
         </nav>
     </header>
