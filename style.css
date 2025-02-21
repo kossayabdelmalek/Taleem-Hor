@@ -74,62 +74,6 @@ footer {
     color: white;
     margin-top: 20px;
 }
-/* تنسيق الجسم (body) */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 0;
-    padding: 0;
-}
 
-/* تنسيق رأس الصفحة (header) */
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-}
-
-/* تنسيق الروابط في الشريط العلوي */
-nav ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* تنسيق الفقرات */
-p {
-    line-height: 1.6;
-    margin: 20px;
-}
-
-/* تنسيق الفقرة الخاصة بـ "حول الموقع" */
-section h2 {
-    color: #4CAF50;
-}
-
-/* تنسيق التذييل (footer) */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    margin-top: 20px;
 }
 
